@@ -74,9 +74,16 @@
         grid-template-columns: repeat(2, 1fr) ;
     }
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 620px) {
     /* For mobile phones: */
     .container {
       width: 100%;
+    }
+    .menu{
+        font-family: 'Qwitcher Grypen', cursive;
+        font-size : 16px;
+    }
+    .menu-group{
+        grid-template-columns: repeat(2, 1fr) ;
     }
   }
