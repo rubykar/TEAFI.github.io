@@ -13,7 +13,7 @@
 }
 
 .menu{
-    font-family: 'Qwitcher Grypen', cursive;
+    font-family: 'Poppins', sans-serif;
     font-size: 14px;
 
 }
@@ -66,7 +66,7 @@
 }
 @media screen and (min-width :992px ) {
     .menu{
-        font-family: 'Qwitcher Grypen', cursive;
+        font-family: 'Poppins', sans-serif;
         font-size : 16px;
     }
 
@@ -80,7 +80,7 @@
       width: 100%;
     }
     .menu{
-        font-family: 'Qwitcher Grypen', cursive;
+        font-family: 'Poppins', sans-serif;
         font-size : 16px;
     }
     .menu-group{
