@@ -76,16 +76,4 @@
         grid-template-columns: repeat(2, 1fr) ;
     }
 }
-/* @media only screen and (max-width: 620px) {
-    /* For mobile phones: */
-   /* .container {
-      width: 100%;
-    }
-    .menu{
-        font-family: 'Poppins', sans-serif;
-        font-size : 10px;
-    }
-    .menu-group{
-        grid-template-columns: repeat(2, 1fr) ;
-    } */
   
