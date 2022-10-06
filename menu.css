@@ -69,6 +69,11 @@
     font-size: 12px;
     font-weight: bolder;
 }
+.extra{
+    padding-left: 90%;
+    font-size: 10px;
+    font-weight: bolder;
+}
 @media screen and (min-width :992px ) {
     .menu{
         font-family: 'Poppins', sans-serif;
