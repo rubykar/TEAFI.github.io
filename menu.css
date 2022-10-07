@@ -27,11 +27,10 @@ body{
     font-size: 2em;
     font-weight: 600;
     transition: 0.3s ease-in-out;
-    background-color: #fff;
+   
 }
 .action.active span.button{
     transform: rotate(-135deg);
-    background-color: #fff;
 }
 .options{
     position:absolute;
@@ -40,6 +39,7 @@ body{
     opacity: 0;
     visibility: hidden;
     transition: 0.3s;
+    background-color: #fff;
 }
 .action.active ul{
     bottom: 65px;
