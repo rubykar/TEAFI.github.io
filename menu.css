@@ -16,6 +16,9 @@ body{
     cursor: pointer;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
 }
+.action:focus{
+    outline: none;
+}
 .action span.button{
     position:relative;
     width:100%;
