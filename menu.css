@@ -16,6 +16,7 @@ body{
     cursor: pointer;
     color: #fff;
     box-shadow: none;
+    outline: 0;
 }
 .action span.button{
     position:relative;
@@ -28,10 +29,12 @@ body{
     font-size: 2em;
     font-weight: 600;
     transition: 0.3s ease-in-out;
+    outline: 0;
    
 }
 .action.active span.button{
     transform: rotate(-135deg);
+    outline:0;
 }
 .options{
     position:absolute;
