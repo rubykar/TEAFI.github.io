@@ -16,7 +16,7 @@ body{
     cursor: pointer;
     color: #fff;
     box-shadow: none;
-    outline: 0;
+    
 }
 .action span.button{
     position:relative;
@@ -179,7 +179,7 @@ a:active {
 }
 *:focus {
     -webkit-tap-highlight-color: transparent;
-    outline: none;
+    outline: none !important; 
     -ms-touch-action: manipulation;
     touch-action: manipulation;
 }
