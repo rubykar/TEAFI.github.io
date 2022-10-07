@@ -4,6 +4,9 @@ html{
 body{
     min-height: 100vh;
 }
+*{
+    -webkit-tap-highlight-color: transparent;
+}
 .action
 {
     position: fixed;
@@ -15,6 +18,7 @@ body{
     border-radius: 50%;
     cursor: pointer;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    
 }
 .action span.button{
     position:relative;
