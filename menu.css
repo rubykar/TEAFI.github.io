@@ -39,7 +39,6 @@ body{
     opacity: 0;
     visibility: hidden;
     transition: 0.3s;
-    background-color: #fff;
 }
 .action.active ul{
     bottom: 65px;
