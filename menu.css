@@ -16,9 +16,6 @@ body{
     cursor: pointer;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
 }
-.action:focus{
-    outline: none;
-}
 .action span.button{
     position:relative;
     width:100%;
@@ -32,9 +29,7 @@ body{
     transition: 0.3s ease-in-out;
    
 }
-.action.active span.button:focus{
-    outline: none;
-}
+
 .action.active span.button{
     transform: rotate(-135deg);
 }
@@ -177,5 +172,11 @@ a:active {
 
     .menu-group{
         grid-template-columns: repeat(2, 1fr) ;
+    }
+}
+
+@media (hover: hover) {
+    .action:hover {
+        outline:0;
     }
 }
