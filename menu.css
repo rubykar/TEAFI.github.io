@@ -34,11 +34,10 @@ body{
 .options{
     position:absolute;
     bottom:55px;
-    padding: 20px;
+    padding: 10px;
     opacity: 0;
     visibility: hidden;
     transition: 0.3s;
-    background-color: brown;
 }
 .action.active ul{
     bottom: 65px;
@@ -51,15 +50,16 @@ body{
     display: flex;
     justify-content:flex-start;
     align-items: center;
-    padding: 10px 0;
+    padding: 3px 0;
     transition: 0.3s;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: bold;
     font-family:'Poppins', sans-serif;
 }
 .action ul li:hover{
-    font-weight: 100;
+    font-weight: bolder;
     font-size: 16px;
+
 }
 a:link {
     text-decoration: none;
