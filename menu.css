@@ -188,3 +188,8 @@ a:active {
         outline:0;
     }
 }
+
+.discount{
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
