@@ -192,16 +192,29 @@ a:active {
 .discount{
     font-size:1.3rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background:#F5E600;
+    border-radius: 25px;
+    padding: 20px; 
+    width: 200px;
+    height:200px;
+    
 }
 
 @media screen and (min-width: 601px) {
     .discount {
       font-size: 16px;
+      padding: 20px; 
+      width: 100px;
+      height:200px;
     }
   }
   
   @media screen and (max-width: 600px) {
     .discount{
       font-size: 10px;
+      padding: 20px; 
+      width: 100px;
+      height:200px;
+    }
     }
   }
