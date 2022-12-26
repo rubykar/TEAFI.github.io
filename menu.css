@@ -192,8 +192,9 @@ a:active {
 .discount{
     font-size:1.2rem;
     font-family: 'Poppins', sans-serif;
-    background:#F5E600;
-    border-radius: 25px;
+    color:black;
+    border-radius: solid 25px;
+    border-color: black;
     padding: 20px; 
     width: 80px;
     height:80px;
