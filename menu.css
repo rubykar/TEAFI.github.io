@@ -193,17 +193,17 @@ a:active {
     font-size:1.2rem;
     font-family: 'Poppins', sans-serif;
     color:black;
+    border: solid black ;
     border-radius: 25px;
-    padding: 20px; 
-    width: 80px;
-    height:80px;
+    width: 70px;
+    height:70px;
     
 }
 
 @media screen and (min-width: 601px) {
     .discount {
       font-size: 16px;
-      padding: 20px; 
+      padding: 20px;
       width: 70px;
       height:70px;
     }
@@ -212,7 +212,7 @@ a:active {
   @media screen and (max-width: 600px) {
     .discount{
       font-size: 10px;
-      padding: 10px; 
+      padding: 20px; 
       width:40px;
       height: 40px;
     }
