@@ -108,7 +108,7 @@ body {
 
 @media (max-width: 768px) {
   .whats-new li {
-    width: 100%;
+    width: 50%;
   }
 }
 
